@@ -1,0 +1,60 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panel_a_lo_largo_del_dia"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="Oración del círculo internacional"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:paddingTop="20dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Bajo el impulso del Espíritu Santo,  \n nos pusiste hace años como meta \n proclamarte\n Reina del Universo \n a ti, que en tus brazos \n llevas la Vida.\n \n Por entonces éramos sólo un pequeño círculo. \n Más tarde, para honra tuya, \n de año en año\n nos extendimos hacia otras nobles naciones, \n que conviven aquí\n estrechamente con nosotros. \n \n Con tu maternal benevolencia, \n perdona lo que hemos pecado por omisión: \n que no crecimos en magnitud\n ni en profundidad\n y no abrimos más ampliamente \n las puertas de Schoenstatt.\n \n Por eso el orbe \n no ha alcanzado suficiente madurez \n para desterrar la dura maldición\n del pecado de Adán,\n y para elevarte con solicitud al trono \n y poner el centro en tus manos.\n \n Para ello acepta \n nuestro sencillo homenaje\n y considera nuestra disponibilidad para el combate.\n Te entregamos\n a los pueblos aquí presentes,\n que con nosotros comparten la suerte del desierto.\n \n Sé para ellos Madre y Reina; \n que vuelvan a su patria transformados \n en sólidos garantes\n de la paz entre los pueblos \n y de la unión\n en la Ciudad de Dios aquí en la tierra. \n \n EL amor y la fidelidad \n que te han negado\n al huir de la cruz de Cristo, \n queremos suplirlos\n por el esfuerzo\n de vivir únicamente para ti y tu Obra.\n \n Reina sobre nosotros \n según el querer de Dios; \n transfórmanos en sal\n y en levadura del mundo;\n haz que seamos un alma y un corazón, \n así como el Señor lo implora en la tierra.\n \n A pesar de todas las particularidades, \n formemos una sólida unidad;\n como reino ideal nos consagremos al Padre \n y, aunque el odio\n enferme a la masa de los pueblos, \n rompamos todas las barreras nacionales.\n \n Acrecienta nuestra pequeña grey \n y dale profundidad;\n úsanos siempre como instrumento tuyo \n para cumplir la gran misión\n que para nosotros imploraste \n por voluntad del Padre.\nAmén."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

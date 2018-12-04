@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/a_lo_largo_del_dia"
+            android:title="A lo largo del día" />
+        <item
+            android:id="@+id/circunstancias_diversas"
+            android:title="En circunstancias diversas" />
+        <item
+            android:id="@+id/apendice"
+            android:title="Apéndice" />
+    </group>
+
+    <item android:title="Opciones"
+        android:id="@+id/opciones"
+        >
+        <menu>
+            <item
+                android:id="@+id/favoritos"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Favoritos" />
+
+            <item
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_lupa24dp"
+                android:title="Buscar" />
+
+            <item
+                android:id="@+id/nav_send_main"
+
+                android:icon="@drawable/ic_menu_send"
+                android:title="Atrás" />
+        </menu>
+    </item>
+
+</menu>

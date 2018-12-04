@@ -1,0 +1,59 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panel_a_lo_largo_del_dia"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="Cántico de gratitud"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="¡Cayeron las cadenas! \n Resuene en las voces de todos\n un jubiloso cántico de gratitud que se eleve \n desde los santos recintos de Schoenstatt.\n \n En el difícil camino de peregrinación \n Dios se ha manifestado ante nuestra comunidad \n en su grandeza y sabiduría,\n para gloria y alabanza suyas.\n \n Cuanto el poder y la astucia de Satanás \n idearon como infortunio,\n lo transformo la mirada del Padre \n en nuestra suprema felicidad.\n \n Aquello que era terreno en el pensar \n o demasiado humano en la entrega, \n quiso Dios orientarlo hacia las alturas\n y sumergirlo enteramente en su corazón.\n \n Así formamos hoy una férrea unidad,\n fundidos en el amor de Dios, \n y luchamos sin fatigarnos\n en contra de los engendros de Satanás,\n a fin de que nazcan hombres nuevos  \n que, siendo aquí en la tierra libres y \n fuertes, se comporten como Cristo\n en las alegrías y dificultades\n \n y que sólo con Cristo entrelacen \n el afán de sus corazones,\n así como durante su vida se entregó \n María, la Madre y Esposa.\n \n En agradecimiento, nuestras almas \n escojan al Cordero de Dios\n para desposarnos con él por la eternidad\n y ser contados entre los que permanecen fieles.\n \n Y ahora que nos amenaza un súbito derrumbe, \n¿quiénes, Señor, morir nuevamente?\n¿Buscas también con estos requerimientos de amor \n a herederos de tu santa transfiguración? \n \n Si es así, mira la grey de los que son tuyos, \n a esta porción signada con la pequeñez y la pureza, \n y por misericordia únelos a ti\n para en ellos aparecerte nuevamente al mundo.\n \n En ellos tú puedes sufrir, \n luchar, apacentar\n y a través suyo prepararte de nuevo \n las alegrías de la resurrección.\n \n Por ellos edifica \n la ciudad fundada en el cielo, \n hacia la cual con entera confianza \n alcen todos la mirada.\n \n Hasta los confines del mundo \n puedes enviar\n a quienes hoy se te consagran,\n para contemplar tu Reino en la tierra.\n \n María, recibe la ofrenda \n en tus fieles manos de madre,\n y así, hasta nuestro paso a la vida futura, \n no cese el cántico de gratitud.\n Amén. "
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

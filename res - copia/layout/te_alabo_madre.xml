@@ -1,0 +1,59 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panel_a_lo_largo_del_dia"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="Te alabo, Madre"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Madre, te alabo filialmente por los obsequios  \n que me han enviado fieles corazones; fuiste tú \n quien, con tu bondad, los impulsaste a cubrir \n con abundantes provisiones la mesa de los míos.\n \n Agradecido devuelvo los dones de amor \n a tus benignas manos de madre,\n y de corazón te pido: indícame la forma \n como el reparto te honre y te alegre.\n \n Medianera de los dones y de las gracias, \n ven; el Señor y tú sean los invitados; \n ata estrechamente el vínculo familiar\n entre corazón y corazón, entre país y país. \n \n Serviremos con desprendimiento a tu Obra, \n con el corazón fuerte y el rostro alegre, \n confiando a ti, durante nuestro peregrinar,\n el cuidado por la salud y el sustento.\n \n Fue eso lo que Jesús nos aconsejara: con palabras \n y con hechos busquen primero el Reino de Dios; \n lo demás se lo dará el Padre por añadidura,\n y nos dejen de importunarlo con peticiones filiales.\n \n Enséñanos a que estos dones nos lleven a lo alto \n y a que nos inclinemos reverentes ante el Amor, \n que cada día nos abre más y más\n su inagotable mar de misericordias.\n \n Implora copiosas bendiciones de Dios \n para todos los que se afanan por nuestro bien; \n otórgales, en el duro camino de la vida,\n con abundancia tu amor y tu gracia.\nAmén. "
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

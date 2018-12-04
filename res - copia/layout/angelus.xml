@@ -1,0 +1,59 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panel_a_lo_largo_del_dia"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="El Ángelus"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="5dp"
+        android:scrollbars="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="A ti, Madre, te escogió el Señor\n como Colaboradora\n para la salvación del mundo; \n fiel y nupcialmente\n lo secundas en todo momento \n como Diaconisa;\n con tu virginal reciedumbre\n eres quien aniquila a la Serpiente.\n Preparas a Jesús como ofrenda,\n con silenciosa servicialidad.\n (Dios te salve María..)\n Como Diaconisa, en el Templo, \n Presentas al Padre la Ofrenda.\n(Dios te salve María..)\n Con Cristo, en el altar de la cruz, \n te entregas a nosotros como ofrenda. \n (Dios te salve María…)\n \n Uno:\n El Señor da sus gracias\n a quienes las procuran.\n \n Todos:\n A través tuyo él da las gracias,\n como frutos del sacrificio.\n\n Con sencillez te pedimos, Padre,\n arda en nosotros la luz de la fe; \n que conozcamos con claridad a \n nuestra Madre\n y que confiemos en ella \n como Medianera nuestra. \n Concede que siempre,\n a imagen suya\n y como a ti te agrade, nos ofrezcamos \n con alegre y resuelta servicialidad\n como instrumentos para la salvación del mundo, \n a fin de destruir el poderío del Dragón,\n Padre, te lo pedimos por Cristo, \n quien, para gloria tuya,\n nos hace partícipes de su mediación.\nAmén."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

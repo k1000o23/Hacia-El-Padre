@@ -1,0 +1,63 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panel_a_lo_largo_del_dia"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="Madre, aquí estoy"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scroll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.52" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+
+        android:scrollbars="vertical"
+        android:paddingTop="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingBottom="5dp"
+            android:text="\n Madre, ¿quieres mi trabajo?\n -Aquí estoy.\n¿Quieres que todas las fuerzas de mi espíritu\n Lentamente se desangren?\n -Aquí estoy.\n¿Quieres mi muerte? \n -Aquí estoy.\n pero procura que todos\n los que tú me has confiado \n amen a Jesús,\n vivan para Jesús\n y aprendan a morir por Jesús.\n Amén. "
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+

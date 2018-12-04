@@ -1,0 +1,71 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- <TextView
+         android:id="@+id/textView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="180dp"
+         android:paddingLeft="50dp"
+         android:text="FRAGMENTO tab 1"
+         android:textAlignment="center"
+         android:textSize="32sp"
+         android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="\nEjercicio de la muerte"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="112dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="La intimidad de nuestras almas \n desnuda está ante los ojos del Señor, \n que aparecerá como juez un día\n a juzgar a todas las naciones. \n Libremente nos desprendemos ahora\n de las ataduras que aún nos aprisionan; \n Padre, en Cristo nos entregamos a ti \n sin reservas, filialmente.\n \n Participamos de la agonía de Cristo\n y de su muerte de cruz,\n tal como será al fin de nuestras vidas \n en la unción con el santo óleo.\n \n La mano toca cada uno de los sentidos\n y te solicita, Padre, que los libertes de las cadenas \n que durante el día de hoy nos ataron\n quitando al alma su vigor.\n \n Mucho nos duelen nuestras faltas,\n Nuestro corazón culpable\n lo sumergimos en el mar del amor \n consagrándolo nuevamente a ti por entero.\n \n Tú nos regalaste amor\n y nosotros te ofendimos; \n nos colmaste con dones \n y nosotros te olvidamos.\n \n Por eso nuestra labor por los hombres\n nos alcanzó toda su fecundidad.\n Lo que una mano había construido, \n lo destruyó la otra en un momento. \n Por nuestra culpa nos miras con tristeza\n a nosotros, a quienes tú has amado, \n y a nuestro santuario,\n propiedad de nuestra Madre.\n \n El futuro será distinto: 380 \n dejaremos de lado las apariencias; \n sólo iremos en pos del ideal,\n que por todas partes nos alumbra."
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+
+

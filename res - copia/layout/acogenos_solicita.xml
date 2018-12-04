@@ -1,0 +1,59 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panel_a_lo_largo_del_dia"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="Acogenos solícita"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Madre, acógenos solícita \n bajo tu manto\n para que nuestro caminar \n siempre sea en el cielo;\n a quienes acudimos a ti con grandes necesidades, \n protégenos del hambre, de la peste y del fuego.  \n \n Habla a tu hijo \n como cuando él estaba en la tierra \n y ayudaba en apuros y penurias; \n dile: “No tienen vino ni alimento”, \n y él, con certeza,\n escuchará nuestra súplica.\n \n Él te escogió \n para que seas tú la segunda Eva y \n salves lo que la primera perdió:\n si por ella fuimos arrastrados a la ruina, \n de ti nos brota\n la fuente de la eterna salvación.\n \n Según los planes de amor \n y sabiduría del Padre,\n este mundo será siempre un valle de lágrimas, \n hasta que amanezca\n el sol radiante de la transfiguración\n y la tierra refleje la gozosa gloria del cielo.\n \n En dependencia de tu Hijo, se te ha concedido \n que puedas devolvernos\n la vida de la gracia antes perdida:\n que apartes o mitigues las aflicciones de esta tierra, \n o las transformes\n en caminos para nuestra salvación. \n \n Generosamente despliega hoy \n tu corazón de madre;\n y como Colaboradora del Señor Jesús, \n manifiesta en plenitud\n tu poder y tu bondad\n allí donde irrumpen violentos poderes infernales.\n \n Como tu Hijo, que durante su vida terrena \n saciaba el hambre\n y traía consuelo y salud a los enfermos, \n así con él pasa ahora entre nosotros \n bendiciendo en silencio, para darnos\n el inmenso poder de tus manos de madre.\n \n Manifiéstate a todo el mundo como gran Señal, \n ante quien desaparezcan la astucia del Demonio \n y la miseria terrena;\n en ti encuentren los pueblos amparo y auxilio \n y te proclamen alegremente\n como Medianera de la salvación.\n \n Nuestra necesidad \n se ha hecho tan extrema,\n que, sin tu socorro, pareceremos;\n solo tú puedes preservarnos de sucumbir; \n ven y míranos en torno a ti\n congregados y suplicantes. \n \n Con tu Hijo, sé nuestra liberación \n de la furia del infierno\n y de la tormenta del tiempo;\n con todas las voces de nuestra gratitud \n te alabaremos eternamente\n como a la excelsa Madre de los pueblos.\n \n Proclamaremos tu nombre con valentía \n y guiaremos a los hombres hasta tu santuario, \n para que jubilosos\n y llenos de amor\n glorifiquen contigo a la Santísima Trinidad \n en la tierra y en el cielo.\n Amén."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

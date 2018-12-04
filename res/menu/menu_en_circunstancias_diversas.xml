@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_menu_a_lo_largo_del_dia"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/recibe_señor"
+            android:title="Recibe, Señor" />
+        <item
+            android:id="@+id/todas_las_cruces"
+            android:title="Padre, te pido todas las cruces" />
+        <item
+            android:id="@+id/quitarme_este_hijo"
+            android:title="Si quieres quitarme este hijo" />
+        <item
+            android:id="@+id/mira_a_nuestra_familia"
+            android:title="Mira, Padre, a nuestra Familia" />
+        <item
+            android:id="@+id/cetro"
+            android:title="Mantén en alto el cetro" />
+        <item
+            android:id="@+id/acogenos_solicita"
+            android:title="Acógenos solícita" />
+        <item
+            android:id="@+id/oracion_jefes"
+            android:title="Oración de los Jefes" />
+        <item
+            android:id="@+id/oracion_pastor"
+            android:title="Oración del pastor" />
+        <item
+            android:id="@+id/oracion_vocaciones"
+            android:title="Oración por vocaciones masculinas" />
+        <item
+            android:id="@+id/oracion_circulo_internacional"
+            android:title="Oración del círculo internacional" />
+        <item
+            android:id="@+id/grandes_pesares"
+            android:title="En grandes pesares" />
+        <item
+            android:id="@+id/gracias_por_todo"
+            android:title="Gracias por todo" />
+        <item
+            android:id="@+id/te_alabo_madre"
+            android:title="Te alabo, Madre" />
+        <item
+            android:id="@+id/diestra"
+            android:title="Séqueme mi diestra" />
+        <item
+            android:id="@+id/anillo_alianza"
+            android:title="Plegaria del anillo de alianza" />
+        <item
+            android:id="@+id/cantico_terruño"
+            android:title="Cántico al terruño" />
+        <item
+            android:id="@+id/cantico_instrumento"
+            android:title="Cántico del instrumento" />
+        <item
+            android:id="@+id/cantico_gratitud"
+            android:title="Cántico de gratitud" />
+
+    </group>
+
+    <item android:title="Opciones"
+        android:id="@+id/opciones"
+        >
+        <menu>
+            <item
+                android:id="@+id/favoritos"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Favoritos"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Atrás" />
+        </menu>
+    </item>
+
+</menu>

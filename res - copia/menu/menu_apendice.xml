@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_menu_apendice"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/pureza"
+            android:title="Por tu pureza" />
+        <item
+            android:id="@+id/oraciones_apostolicas"
+            android:title="Oraciones apostólicas" />
+        <item
+            android:id="@+id/madreaquiestoy"
+            android:title="Madre, aquí estoy" />
+        <item
+            android:id="@+id/confio"
+            android:title="Confianza" />
+        <item
+            android:id="@+id/exorcismos"
+            android:title="Exorcismos" />
+        <item
+            android:id="@+id/espiritu_santo"
+            android:title="Oración al Espíritu Santo" />
+        <item
+            android:id="@+id/habitacionsantu"
+            android:title="Mi habitación es tu santuario" />
+    </group>
+
+    <item android:title="Opciones"
+        android:id="@+id/opciones"
+        >
+        <menu>
+            <item
+                android:id="@+id/favoritos"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Favoritos"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Atrás" />
+        </menu>
+    </item>
+
+</menu>

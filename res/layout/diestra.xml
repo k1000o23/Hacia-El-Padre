@@ -1,0 +1,59 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panel_a_lo_largo_del_dia"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="Séqueme mi diestra"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Lleno de anhelo,\n permanecí largo tiempo\n ante las sagradas puertas que hoy \n se me abren generosas:\n hoy me admite la Familia en su seno.\n¡Mi corazón no logra comprender \n tan grande dicha!\n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n No puedo concebir\n nada más hermoso en la tierra, \n que regalarme a nuestra Familia \n y ser un auténtico hijo suyo\n en cuerpo y alma, \n entregando a ella \n todas mis fuerzas.\n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Otros podrán alabar sus comunidades\n y desarrollarse en ellas \n según su estilo;\n para mí en esta tierra \n no hay dicha mayor,\n que esforzarse con magnanimidad por nuestro ideales.\n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Desde hoy\n puedo llevar mi emblema,  \n que anunciará jubilosamente \n a todo el mundo:\n estoy incorporado para siempre \n a la comunidad;\n para esta comunidad he nacido.\n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Vivo en esta Familia  \n nacida de la mano de Dios, \n porque Dios en su bondad \n me escogió para ella.\n Sólo en ella,\n y en ningún otro lugar de esta tierra, \n podrá garantizarse tanto mi salvación.\n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n La Madre me ha aceptado con bondad\n y, como sólo ella puede hacerlo, \n se ha comprometido\n a cuidarme fielmenteen cada circunstancia de la vida, \n para que, alegre, algún día\n me acoja la aurora pascual. \n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Perteneciendo por entero a Cristo\n y a nuestra Madre,\n que llenos de benevolencia \n siempre se inclinan hacia mí, \n podré luchar heroicamente \n por la verdadera libertad\n y ofrecerla día a día con gozo a Dios.\n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Puedo ir con libertad soberana\n de un lugar a otro,  \n si así Dios lo quiere, \n pero nunca\n abandonaré la comunidad \n que busca estrechamente \n con íntimo amor.\n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Nuevamente he recibido\n padre y madre\n y a muchos hermanos \n llenos de nobleza; \n tengo un derecho\n a llevarlos en mi corazón,\n y en sus corazones a establecer mi tienda.\n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Sus aspiraciones, su amor,\n su dolor, su oración \n me ayudan a alcanzar \n el puerto eterno;\n lo que con sacrificios de amor han conquistado, \n me ayuda para que un día\n entone el alegre canto de victoria.\n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Por el esfuerzo noble y puro\n de mis padres y hermanos, \n quiere el Padre colmar\n mi alma en abundancia, \n y porque con sencillez\n hacia el Padre ellos peregrinan en Cristo, \n complaciente me mira nuestra Madre.\n Sea Dios mi testigo: \n Séqueme mi diestra,\n Schoenstatt ,\n si de ti me olvido.\n \n Su valiente avance\n a través de la corriente de los tiempos, \n con altivez me ensancha\n el corazón y el horizonte;\n los honores que lealmente han logrado, \n acrecientan\n mi conciencia de familia. \n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Su lucha noble y heroica por la santidad\n me significa diariamente \n un nuevo estímulo;\n con ellos quiero luchar \n por la palma de victoria \n y entonar cada día \n alegres salmos de amor.\n \n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Tan entrelazado estoy con la Familia,\n que todo el que alabe, \n a mí debe alabarme,\n y aquel que la desprecie\n a mí tendrá que despreciarme;\n hasta tal punto han de considerarnos \n una sola unidad.\n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Lo que la Familia\n hace por agradar a \n Dios, cada nuevo hijo\n que se suma a sus filas, \n todo eso me repercute \n como sucedido a mí:\n ella es y será mi otro yo aquí en la tierra.\n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Sus arrugas,\n faltas y debilidades\n nunca destruirán mi respeto por ella; \n no permitiré jamás\n que sus limitaciones humanas\n me aparten\n del gran amor que profeso. \n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Lo que hacia afuera\n no pueda aumentar su honra, \n siempre me guardaré de publicarlo; \n sobre ello extiendo\n un manto de silencio \n y lo expío\n con una vida de santidad. \n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Y aunque me desengañe la Familia,\n nunca\n me apartaré de su lado; \n lo que a ella me dio, \n quiero retribuírselo\n elevando siempre su esfuerzo \n hacia lo más alto.\n Sea Dios mi testigo: \n Séqueme mi diestra,\n Schoenstatt ,\n si de ti me olvido.\n \n Nos mantenemos\n inseparablemente unidos…\n Arda el fuego de amor a la Familia.\n En ella y con ella \n queremos luchar y vencer, \n por nosotros\n debe ella cumplir su misión.\n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Aquellos que estuvimos una vez\n junto al altar,\n nunca seremos motivo de vergüenza \n para la Familia;\n la fidelidad que en el altar juramos permanecerá siempre:\n ninguno ha de perderse. \n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\n si de ti me olvido.\n \n Considero una de las mayores gracias,\n que la bondad\n con la que Dios conduce mi vida, \n me haya benignamente\n guiado hacia la Familia.\n¡Si pudiese agradecer \n Como debiera!\n Sea Dios mi testigo: \n Séqueme mi diestra, \n Schoenstatt ,\nsi de ti me olvido."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

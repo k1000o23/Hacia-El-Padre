@@ -1,0 +1,72 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- <TextView
+         android:id="@+id/textView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="180dp"
+         android:paddingLeft="50dp"
+         android:text="FRAGMENTO tab 1"
+         android:textAlignment="center"
+         android:textSize="32sp"
+         android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="\nMira, Padre, a nuestra familia"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="112dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="San Francisco Javier peligraba\n por la zozobra de su nave.\n Tan grande era el riesgo de naufragio \n y de perder la vida,\n que sólo Dios\n podía salvarlo de la muerte.\n \n En ese difícil momento lo embargo\n una emoción profunda:\n se sintió estrechamente  unido \n a todos sus hermanos de orden, \n a los de la tierra\n y a los de la mansión del cielo.\n \n Pensó en su lucha\n pura y noble,\n en su vida meritoria y grata a Dios; \n y pidió fervorosamente al \n que, en consideración a ellos, \n lo librase del naufragio.\n \n Así de serio, espiritual y trascendente\n era su pensamiento;\n así de hondo y de cálido \n era su afecto de hermano:\n tan estrecho era el vínculo familiar \n que lo ataba a los suyos.\n \n La Compañía se esforzaba por complacer a Dios\n y bajo su mirada crecía fecunda; \n por ello Francisco Javier\n se creía especialmente protegido por Dios \n y utilizado por él de continuo\n como instrumento para su reino.\n \n Cuando mi propia debilidad\n y la astucia de Satanás se suman; \n cuando me oprime\n el amargo tormento de mis faltas, \n yo también puedo apelar\n a la riqueza de nuestro Capital de Gracias,e invocar a los hermanos nobles, puros y fuertes,\n que día a día escogen de nuevo \n al Señor como Esposo,\n y sobre los cuales él hace descansar \n su mirada complaciente.\n Por causa de ellos, el Señor"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+
+

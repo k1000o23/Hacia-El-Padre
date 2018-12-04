@@ -1,0 +1,71 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- <TextView
+         android:id="@+id/textView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="180dp"
+         android:paddingLeft="50dp"
+         android:text="FRAGMENTO tab 1"
+         android:textAlignment="center"
+         android:textSize="32sp"
+         android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="\nMira, Padre, a nuestra familia"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="112dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Diariamente ofrezco\n los míos y sus luchas,\n su vida fuerte y santa de amor y sacrificio:\n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Cuando la tentación\n amenaza con superarme\n y el mundo y el Demonio no se alejan de mí, \n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Cuando las incertidumbres de la vida se ciernen\n y enemigos esparcen \n sus bombas y granadas,\n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Cuando la persecución pisa mis talones\n y todos los campos\n se transforman en desiertos,\n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Y cuando mi vida pende de un hilo,\n porque enemigos me acechan \n en todos los senderos,\n \n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Cuando por perfidia y por un odio ciego,\n buscan destruir, destrozar \n la obra de mi vida,\n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Cuando se me acusa\n de todas las herejías\n y todos lo que me apoyaban huyen de mí,\n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Cuando quieren arrancarme\n de mi lado\n a quienes he podido tener por discípulos,\n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Cuando se desploman\n mi valor y mi confianza,\n porque se me presentan tareas agobiantes,\n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Cuando me es imposible\n dar prudentes consejos a los míos\n y protegerlos de los daños del cuerpo y del alma,\n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Cuando Satanás lucha\n con golpes insidiosos y violentos \n para borrar a Dios de mi existencia,\n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Cuando Dios permite triunfar\n en apariencia al Demonio\n y a mi alrededor todo guerrea en contra mía, \n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Cuando me siento ante Dios\n pobre y desnudo\n y a mis pies se abren profundidades abismales, \n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Cuando lleguen las últimas horas de mi vida\n y mi conciencia\n me acuse con rigor,\n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Cuando esté ante el tribunal de Dios\n y tema seriamente \n recibir su duro reclamo,\n Padre, con misericordia mira a nuestra Familia \n y, por causa suya, manifiéstate en tus maravillas.\n \n Estoy tan íntimamente ligado a los míos,\n que yo y ellos nos sentimos siempre \n un solo ser:\n de su santidad vivo y me sustento\n y, aun, gustoso estoy dispuesto a morir por ellos.\n \n Estoy tan entrañable\n y fielmente unido a ellos,\n que desde dentro una voz me dice siempre: \n En ellos repercuten tu ser y tu vida,\n deciden su aflicción o acrecientan su dicha.\n \n Cuando mi vida es agitada\n por indómitas tormentas\n y las pasiones desgastan mi alma:\n En ellos repercuten tu ser y tu vida, \n deciden su aflicción o acrecientan su dicha.\n \n Cuando los placeres del mundo\n procuran seducirme\n y el corazón está cansado, seco y abatido: \n En ellos repercuten tu ser y tu vida,\n deciden su aflicción o acrecientan su dicha.\n \n Cuando se ha tornado en disgusto\n luchar por lo más alto\n y me abandona esa vigorosa fuerza de antes: \n En ellos repercuten tu ser y tu vida,\n deciden su aflicción o acrecientan su dicha.\n \n Cuando en todas partes\n se me deja siempre de lado\n y soy incapaz de satisfacer cualquier exigencia: \n En ellos repercuten tu ser y tu vida,\n deciden su aflicción o acrecientan su dicha.\n \n Cuando me oprime la carga\n de pesados trabajos\n y todo me arrastra hacia la agitación y la prisa: \n En ellos repercuten tu ser y tu vida,\n deciden su aflicción o acrecientan su dicha.\n \n Cuando los nervios\n me juegan malas pasadas\n y mi celo se enfría por los fracasos:\n En ellos repercuten tu ser y tu vida, \n deciden su aflicción o acrecientan su dicha.\n \n Cuando se desbaratan todos mis grandes planes\n y todo a mi alrededor\n me manifiesta una amenazante hostilidad: \n En ellos repercuten tu ser y tu vida,\n deciden su aflicción o acrecientan su dicha.\n \n Cuando me hastía la callada fidelidad\n en lo pequeño y más estoy dispuesto \n al llanto amargo que a la risa:\n En ellos repercuten tu ser y tu vida, \n deciden su aflicción o acrecientan su dicha.\n \n Cuando el Espíritu de Dios me impulsa a lo alto\n y por mi cansancio\n yo quisiera tenderme en un rincón:\n En ellos repercuten tu ser y tu vida, \n deciden su aflicción o acrecientan su dicha.\n \n Cuando la obediencia\n me somete a difíciles pruebas\n y no hay un cálido sol que brille desde lo alto: \n En ellos repercuten tu ser y tu vida,\n deciden su aflicción o acrecientan su dicha.\n \n Cuando me agobia la estrechez de la pobreza\n y cantos de sirena\n buscan cautivar mis sentidos:\n En ellos repercuten tu ser y tu vida, \n deciden su aflicción o acrecientan su dicha.\n \n Cuando se me hace duro\n continuar solidario el camino\n y ver a otros en su matrimonio llenos de felicidad: \n En ellos repercuten tu ser y tu vida, \n deciden su aflicción o acrecientan su dicha.\n \n Cuando me acosa el instinto\n que desea un hijo propio,\n y esta forma de vida me estrecha con dureza: \n En ellos repercuten tu ser y tu vida,\n deciden su aflicción o acrecientan su dicha.\n \n Cuando estoy fatigado por el trabajo\n y otros nuevos problemas \n golpean ya a mi puerta:\n En ellos repercuten tu ser y tu vida, \n deciden su aflicción o acrecientan su dicha.\n \n Cuando estoy ante decisiones importantes\n y me resisto a emprender caminos \n llenos de sacrificio:\n En ellos repercuten tu ser y tu vida, \n deciden su aflicción o acrecientan su dicha."
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+

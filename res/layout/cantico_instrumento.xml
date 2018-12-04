@@ -1,0 +1,60 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panel_a_lo_largo_del_dia"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="Cántico del instrumento"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:scrollbars="vertical"
+        android:paddingTop="20dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Madre tres veces Admirable,\n consérvanos siempre como instrumento tuyo; \n haz que con amor, hoy y todos los días,\n nos pongamos s tu servicio.\n Según los deseos de Dios, usa de nosotros \n enteramente para tu reino de Schoenstatt.\n \n Toma el corazón y la voluntad:\n te pertenecen por completo; \n ciegamente quieren doblegarse\n a tus indicaciones y a tu palabra.\n Ser total posesión tuya\n es, para el instrumento, su honra y su gloria.\n \n Está pronto a servir sin reservas\n a tu obra de Schoenstatt.\n Mándanos sufrimientos, guíanos a la lucha, \n danos ganar la victoria plena.\n Contra las argucias y la saña del Demonio \n Danos luz, templa nuestro espíritu.\n \n Aseméjanos a ti y enséñanos\n a caminar por la vida tal como tú lo hiciste: \n fuerte y digna, sencilla y bondadosa, \n repartiendo amor, paz y alegría.\n En nosotros recorre nuestro tiempo \n Preparándolo para Cristo Jesús.\n \n Aunque nos amenacen el mundo y el Demonio,\n o tempestades se cierran sobre nosotros, \n tú vences todos los peligros\n y nos concedes tu inmenso poder. \n Tu corazón, puerta del cielo,\n es siempre nuestro seguro amparo.\n \n Nunca pereceremos\n Se somos fiel instrumento tuyo: \n Nos ayudas en todo instante\n Para que demos abundantes frutos.\n Con alegría caminemos de tu mano \n Hacia el eterno Schoenstatt.\nAmén."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

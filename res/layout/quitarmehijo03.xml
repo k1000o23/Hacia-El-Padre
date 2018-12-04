@@ -1,0 +1,71 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- <TextView
+         android:id="@+id/textView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="180dp"
+         android:paddingLeft="50dp"
+         android:text="FRAGMENTO tab 1"
+         android:textAlignment="center"
+         android:textSize="32sp"
+         android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="\nSi quieres quitarme este hijo"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="112dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Quisiera nuestra Madre\n implorar para nosotros una seriedad semejante; \n entonces cruzaremos\n victoriosamente las tormentas;\n ella cuida que el Padre nos devuelva al hijo \n mirándonos con sus bondadosos ojos paternales.\n \n Primero debemos regalar al hijo sin reservas,\n guiar nuestro íntegro amor \n sólo hacia el Padre,\n y, aunque sea en el último instante, \n lleno de amor y bondad,\n él nos lo devolverá, como a Isacc.\n \n El Padre hace del hijo\n un gran portador de la promesa\n y se transforma él mismo en su generoso protector; \n lo hace crecer y multiplicarse\n numeroso como arenas del mar,\n para gloria y alabanza de la Santísima Trinidad.\n \n Al hijo lo hace fecundo en hijos santos,\n que proclaman las magnificencias \n de nuestra Madre;\n lo convierte en sal de la tierra y luz de la creación, \n para dar fuerza, calor y claridad\n al mundo y a la Iglesia.\n \n Lo lleva a avanzar con valor y santa libertad\n a través de tiempos indómitos y despersonalizados; \n lo toma por noble heraldo\n para proclamar por toda la tierra \n la verdadera libertad,\n la cual, alegremente, se consagra a Dios.\n \n Con tal de salvar la libertad de la Familia,\n gustoso llevaré eternamente\nlas sombrías cadenas de esclavo…"
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+

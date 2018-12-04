@@ -1,0 +1,71 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- <TextView
+         android:id="@+id/textView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="180dp"
+         android:paddingLeft="50dp"
+         android:text="FRAGMENTO tab 1"
+         android:textAlignment="center"
+         android:textSize="32sp"
+         android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="\nMira, Padre, a nuestra familia"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="112dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="En Cristo Jesús nos ata\n un estrecho vínculo:\n estamos profundamente unidos \n en sus santas llagas;\n nosotros somos sus miembros, \n él la única Cabeza:\n esta Buena Nueva\n nadie nos la podrá arrebatar.\n \n Como miembros de su Cuerpo \n somos capaces de obtener méritos: \n tenemos derecho\n a la gracia y a la gloria.  \n Mientras seamos \n verdaderamente a sus miembros, \n el Padre siempre\n nos mirará con beneplácito.\n \n Si en el ser\n y en la vida\n nos asemejamos a Cristo, \n podremos extendernos \n las manos unos a otros: \n la santidad de uno \n favorece a todos\n a través de la sangre del Señor.\n \n Así el amor de la Familia\n nos da alas\n para refrendar con ahínco \n las malas pasiones\n y esforzarnos\n por la más alta santidad,\n con vigoroso espíritu de sacrificio \n y sencilla alegría.\n \n La santificación propia\n se torna amor a la Familia \n y le ayuda a cruzar\n alegremente toda oscuridad; \n atrae sobre ella\n los ojos regocijados del Padre \n y es para ella báculo certero, \n el más seguro amparo.\n \n Esa santificación\n se orienta al apostolado \n y de él vive,\n e inflama con su ardor \n el celo por las almas;\n es un lazo potente, indestructible, \n que nos une\na través de ciudades y de campos."
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+

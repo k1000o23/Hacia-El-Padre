@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_menu_a_lo_largo_del_dia"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_menu"
+            android:title="Favorito1" />
+        <TextView
+            android:id="@+id/txtMenuItem"
+            android:title="Favorito2" />
+
+    </group>
+
+    <item android:title="Opciones"
+        android:id="@+id/opciones"
+
+        >
+        <menu>
+            <item
+                android:id="@+id/favoritos"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Favoritos"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Atrás" />
+        </menu>
+    </item>
+
+</menu>

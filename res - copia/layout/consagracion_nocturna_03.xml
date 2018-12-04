@@ -1,0 +1,72 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- <TextView
+         android:id="@+id/textView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="180dp"
+         android:paddingLeft="50dp"
+         android:text="FRAGMENTO tab 1"
+         android:textAlignment="center"
+         android:textSize="32sp"
+         android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="\nConfesión de culpa"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="112dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:paddingBottom="5dp"
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Padre, por la expiación de su sangre preciosa,\n Jesús nos reconcilie\n con tu corazón entristecido\n por cuanto hicimos sin el debido amor.\n \n Considera a María como Abogada nuestra \n y escucha su petición de Madre; \n recibe con benignidad sus méritos \n y míranos paternalmente.\n \n Muchas veces, cuando el mundo nos sedujo, \n Nuestros corazones se endurecieron. \n A menudo no estábamos vigilando \n cuando nos expresaste tus deseos.\n \n Muchas reservas ocultas  \n nos cansaron y enfriaron; \n muchas malas pasiones \n menguaron la fuerza del amor.\n \n A menudo, los hechos con que hoy te indignamos \n destruyeron nuevamente \n lo que, con palabras,\n habíamos predicado y anunciado. \n \n A menudo malgastamos tiempo y oportunidades. \n Las faltas de omisión,\n que nos privaron de tu benevolencia, \n Padre, nos oprimen pesadamente.\n \n Para pena tuya \n se oscureció nuestro gran ideal (I.P.) \n y la batalla del día fue débil (E.P.), \n porque nos falto espíritu y acción.\n (Examen de conciencia – ideal personal, examen particular)"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+
+
+

@@ -1,0 +1,71 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- <TextView
+         android:id="@+id/textView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="180dp"
+         android:paddingLeft="50dp"
+         android:text="FRAGMENTO tab 1"
+         android:textAlignment="center"
+         android:textSize="32sp"
+         android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="\nSi quieres quitarme este hijo"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="112dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="San Ignacio meditaba en presencia de Dios\n qué sería lo que más\n le costaría a su corazón, \n si el señor, de pronto,\n quisiera exigirle algo, como la última \n y suprema ofrenda de amor.\n \n Rápidamente pudo contestar a esa interrogante\n de la sabiduría divina:\n más que a sí mismo y su vida amaba a la Compañía, \n a la que había consagrado sus fuerzas\n y por la cual estaba dispuesto \n a morir con alegría.\n \n Entonces exclamó: “Si Dios\n me pidiera la Compañía,\n si él quisiera destruir esta comunidad \n que he fundado por complacerlo\n - y que para mí es motivo \n de alabanza a su bondad -,\n si él la exigiera, tal vez mi corazón,\n después de recibir\n el anuncio de su muerte, \n se agitaría intranquilo\n aun durante un cuarto de hora…\n pero luego Dios dominaría sobre ese sentimiento”.\n\n¿No llevo yo, como San Ignacio, \n inscrito en lo más hondo del corazón, \n con un amor más grande\n que todo amor humano,\n ese pequeño y noble reino familiar \n que desea asemejarse a la Trinidad?\n \n Ni un padre ni una madre,\n en toda la intensidad\n de su noble instinto de padres,\n pueden querer al hijo predilecto de su corazón \n tanto como yo quiero a la Familia\n que Dios ha convocado.\n \n Gustoso doy por ella la honra,\n el cuerpo y la vida,\n la salud, la fuerza y los talentos,\n si con esto, de acuerdo con lo que ella es, \n la sirvo mejor\n y si Dios así la corona con su amor y su fecundidad.\n \n A cada costumbre familiar,\n aun la más pequeña,\n quiero cantar jubiloso mi alabanza y gratitud.\n Nunca abdicaré absolutamente nada \n de esas tradiciones;\n a ellas brindo mi vigor y mi fatiga."
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+

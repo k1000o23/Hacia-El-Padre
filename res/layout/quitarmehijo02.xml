@@ -1,0 +1,71 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- <TextView
+         android:id="@+id/textView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="180dp"
+         android:paddingLeft="50dp"
+         android:text="FRAGMENTO tab 1"
+         android:textAlignment="center"
+         android:textSize="32sp"
+         android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="\nSi quieres quitarme este hijo"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:paddingTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="112dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Dios omnipotente,\n¿quieres quitarme este hijo,\n te alegra paralizar sus fuerzas,\n deseas verlo transformado en caricatura, \n en la cual sólo reste\n un pálido reflejo de vida?\n \n Por amor me regalaste el hijo,\n me diste energía\n para consagrarle toda mi existencia.\n¿Quieres ahora verlo muerto en mis brazos, \n o que vaya por la vida\n como un deforme?\n \n Entonces te pido:\n sé consecuente con tus planes;\n sólo hacia ti tiende mi profundo anhelo; \n sólo a ti, Padre, te busco,\n tu voluntad procuro,\n y mi alegría es que cumplas tus deseos.\n \n Toma este hijo,\n al que tú diste la vida \n y al cual he ofrecido\n todas las fuerzas de mi amor;\n lo devuelvo gozoso a tus manos\n y te entrego su destino y su felicidad.\n \n Por tu gran bondad,\n si quieres conservarlo \n para mí y para el mundo,\n y que pueda seguir abrazándolo con amor, \n si tú quieres tomar como precio de rescate\n mis ruegos y mi confianza heroicamente filial,\n\n¡entonces odiaré toda mediocridad\n y toda pereza!\n Ni de día ni de noche quiero, innoblemente, \n dejar de pedir y suplicar lleno de confianza:\n¡Apresúrate en manifestar \n tus maravillas a tu hijo!\n \n Que su vida\n sea una imagen fiel \n de la vida\n de nuestra Madre en la tierra;\n que, a través del hijo, ella resplandezca \n revelando su gloria a nuestro tiempo enfermo.\n \n Con entera confianza\n no me canso de implorar:\n logren tus planes su cumplimiento; \n prueba mi fe y mi confianza, \n siempre creeré heroicamente\n en nuestra misión.\n \n Y si yo mismo no llego a ver esa hora de plenitud,\n que tú tienes prevista para tu hijo, \n entonces me quedaré atrás,\n como Moisés en el monte…\n me basta con que concedas al hijo \n el gozo de la santa tierra.\nAmén."
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
+

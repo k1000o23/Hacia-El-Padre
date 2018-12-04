@@ -1,0 +1,60 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/linearLayout"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/panel_a_lo_largo_del_dia"
+tools:context="sch_project.apk_01.apendice.exorcismos">
+
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:fontFamily="@font/vannegrita"
+    android:shadowColor="@android:color/darker_gray"
+    android:shadowDx="3"
+    android:shadowDy="2"
+    android:shadowRadius="1.8"
+    android:text="\nPadre, te pido todas las cruces"
+    android:textAlignment="center"
+    android:textColor="@color/titulo"
+    android:textSize="@dimen/titulo"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+<ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="64dp"
+    android:scrollbars="vertical"
+    android:paddingTop="60dp"
+    android:layout_marginBottom="5dp"
+    app:layout_constraintTop_toBottomOf="@+id/textView1"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+
+        android:fontFamily="@font/vannormal"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:text=" Te pido todas las cruces y sufrimientos\n que tú, Padre, me tengas preparados.\n \n Libérame de todo egoísmo, \n para que pueda satisfacer tus más leves deseos; \n hazme semejante, igual a mi Esposo;\n sólo entonces alcanzaré la felicidad y la plenitud.\n \n Nunca habrá nada, Padre, que no puedas enviarme; \n haz todo lo necesario para doblegar mi yo: \n únicamente Cristo viva y actúe en mí,\n y yo en él sólo te cause alegrías.\n \n Padre, nunca me mandarás una cruz o un dolor \n sin darme abundantes fuerzas para soportarlo.\n En mí el Esposo comparte mi carga entera \n y la Madre vigila: así somos siempre tres. \n \n Pero si tu voluntad es preservarme del dolor,  \n sólo quiero complacer tus deseos de Padre; \n entonces te pido: aparta de mí la adversidad; \n para mí tú eres la única estrella de vida.\n \n Hasta ahora tuve el timón en las manos; \n en el barco de la vida tan a menudo te olvidé; \n me volvía desvalido hacia ti, de vez en cuando, \n para que la barquilla navegara según tus planes.\n\n¡Concédeme, Padre, por fin la conversión total! \n En el Esposo quisiera anunciar al mundo entero: el \n padre tiene en sus manos el timón,\n aunque yo no sepa el destino ni la ruta.\n \n Ahora me dejaré conducir ciegamente por ti, \n quiero escoger sólo tu santa voluntad; \n y como tu amor me guarda siempre,\n atravieso contigo por las tinieblas y la noche.\nAmén. "
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/texto"
+        android:textSize="@dimen/texto"
+        android:textStyle="bold" />
+</ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,69 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!-- <TextView
+         android:id="@+id/textView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="180dp"
+         android:paddingLeft="50dp"
+         android:text="FRAGMENTO tab 1"
+         android:textAlignment="center"
+         android:textSize="32sp"
+         android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="\nAgradecimiento"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="112dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Alabanza y gratitud a ti,\n Compañero de esta jornada,\n a ti, que realizaste por nosotros \n lo que te alegra y regocija.\n \n Con nuestras manos\n fuiste agregándole a Schoenstatt piedra tras piedra, \n a esta Obra que ha escogido tu bondad\n para llevar salvación al mundo entero.\n \n María, la Madre fiel que nunca nos deja solos,\n con fuerza nos tuvo de su mano, \n porque nos confiaste tu Obra\n a nosotros, que somos Iglesia, esposa del Señor.\n \n Todas las bendiciones de este día\n fluyeron desde el altar;\n como un inmenso mar de gracias \n majestuosamente nos mantuvieron y nos llevaron.\n \n Padre, con amor nos saludaste\n y pusiste dulzura en nuestras vidas, \n porque el Señor en los hombres\n se nos manifestó una y otra vez.\n \n Solicitando nuestra compañía,\n por el dolor humano a menudo nos llamó; \n para asemejarnos a él\n una y otra vez nos trajo la cruz.\n \n Lo que alegró tu mirada\n retorne, Padre, a la fuente de gracias, \n que brota desde nuestro santuario\n para honra tuya, del Hijo y del Espíritu Santo."
+            android:paddingBottom="5dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

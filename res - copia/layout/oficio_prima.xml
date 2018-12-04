@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/linearLayout3"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="@drawable/panel_a_lo_largo_del_dia"
+android:orientation="vertical"
+tools:context="sch_project.apk_01.apendice.exorcismos"
+tools:layout_editor_absoluteY="81dp">
+
+
+<Button
+    android:id="@+id/laudes"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@color/colorPrimaryDark"
+    android:fontFamily="@font/vannormal"
+    android:gravity="center"
+    android:onClick="click_laudes"
+    android:text="&lt;&lt;  Laudes"
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+<Button
+    android:id="@+id/menu_oficio"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@color/colorPrimaryDark"
+    android:fontFamily="@font/vannormal"
+    android:gravity="center"
+    android:onClick="click_menu_oficio"
+    android:text="Menu"
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintEnd_toStartOf="@+id/prima"
+    app:layout_constraintStart_toEndOf="@+id/laudes"
+    app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+<Button
+    android:id="@+id/prima"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@color/colorPrimaryDark"
+    android:fontFamily="@font/vannormal"
+    android:gravity="center"
+    android:onClick="click_tercia"
+    android:text="Tercia   &gt;&gt;"
+    android:textColor="@color/white"
+    android:textSize="15sp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+<ScrollView
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="114dp"
+    android:paddingTop="5dp"
+    android:scrollbars="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/menu_oficio"
+    app:layout_constraintVertical_bias="0.0"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/vannormal"
+        android:paddingBottom="5dp"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:text="(Seis de la mañana)\n Tu santuario es nuestro Nazaret\n donde el Sol de Cristo irradia su calor.\n \n Con su luz clara y transparente\n da forma a la historia \n de la Sagrada Familia,\n y, en la venturosa unión familiar, \n suscita una santidad cotidiana \n fuerte y silenciosa.\n \n Para bendición de tiempos desarraigados,\n en ese Nazaret\n Dios trae salvación a las familias;\n allí donde los hombres se consagran a Schoenstatt, \n él quiere regalar con clemencia\n santidad de la vida.\n \n Haz que Cristo \n brille en nosotros con mayor claridad; \n Madre, únenos en comunidad santa;\n danos constante prontitud para el sacrificio, \n así como nos lo exige\n nuestra santa misión.\n \n El universo entero\n con gozo glorifique al Padre. \n le tribute honra y alabanza \n por Cristo con María\n en el Espíritu Santo,\n ahora y por los siglos de los siglos.\n Amén."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#3d3b3b"
+        android:textSize="@dimen/texto"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp" />
+</ScrollView>
+
+<TextView
+    android:id="@+id/textView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="8dp"
+    android:layout_marginStart="8dp"
+    android:fontFamily="@font/vannegrita"
+    android:shadowColor="@android:color/darker_gray"
+    android:shadowDx="3"
+    android:shadowDy="2"
+    android:shadowRadius="1.8"
+    android:text="Prima"
+    android:textAlignment="center"
+    android:textColor="#000000"
+    android:textSize="@dimen/titulo"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    tools:layout_editor_absoluteY="14dp" />
+
+</android.support.constraint.ConstraintLayout>
+

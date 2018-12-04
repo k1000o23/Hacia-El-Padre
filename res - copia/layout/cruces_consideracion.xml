@@ -1,0 +1,60 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panel_a_lo_largo_del_dia"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="\nPadre, te pido todas las cruces"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:scrollbars="vertical"
+        android:paddingTop="60dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="Aquel que la Inscriptio\n rescata su libre voluntad\n de la dura caparazón del egoísmo,\n se yergue sobre todos los afanes de este mundo, \n resulta siempre vencedor\n en los campos de batalla.\n \n Aquél puede unir su voz alegremente\n a la esposa del Cantar de los Cantares,\n que vive dichosa en la fragua del amor y dice: \n “Cuando mi Amado abre sus labios,\n se derrite mi alma\n como cera entre las brasa ardientes”.\n \n La esposa del Cantar 403\n no sabe de caprichos propios.\n El amado la rige\n hasta en lo más insignificante:\n es como la cera blanda, que coge la forma \n que le ha fijado el sabio modelador.\n \n El modelador es el Dios del amor eterno:\n es el Pastor,\n que, lleno de solicitud,\n por tierras de agitación desolada \n busca a la pequeña oveja perdida\n hasta contarla nuevamente en el rebaño. \n \n Es la Madre, que nunca olvida, \n ni en los días de tormenta, \n al niño que llevó en su seno.\n Es como la Gallina, que cuando el enemigo \n amenaza a los polluelos,\n los cubre con sus alas.\n \n Es el Rey, que con su escudo potente,\n lleno de amor y sabiduría, \n nos rodea y protege,\n para que aun en las batallas más feroces, \n ni la más pequeña nube\n turbe nuestra paz.\n \n Es el Águila que, en sus alas victoriosas,\n lleva hacia el sol\n a los débiles polluelos.\n Es el Padre que, al hijo pródigo, \n lo sienta en el trono de hijo\n y le prepara un banquete.\n \n Porque él los desea, \n la esposa se desprenderá de todo \n cuanto turbe la unión de amor;\n “odiará” de todo corazón esos impedimentos, \n aun cuando sean parte\n de su carne y de su sangre. \n \n “Quien venga a mí \n y no odie padre, madre,\n mujer, hijos, hermano y hermana,\n quien no quiera consagrarme su propia vida, \n nunca podrá ser\n discípulo mío verdadero”.\n \n “Quien no pueda cargar agradecido \n el peso de su cruz, \n jamás se atreva a decir\n que es de verdad fiel discípulo mío; \n aquél lleva sin derecho\n el nombre del cristiano”.\n \n El Señor, que dio todo por nosotros,\n no se contenta con recibir \n la mitad de nuestra vida:\n quiere enteros alma y corazón,\n y no le basta el resplandor pálido \n de una mediocre entrega.\n \n Nada podrá apartarnos del Señor, \n separarnos de él sería nuestra ignominia.\n Si él los desea, hay que desconocer carne y sangre, \n desprendiéndonos de ellas\n cuándo y cómo él lo quiera, \n aunque el sentimiento se rebele. \n \n Se trata de ganar \n ese tesoro enterado en el campo: \n el Dios del amor,\n que se descubre tomando altura en nuestras vidas. \n Lo que somos y tenemos, a cambio de él, es polvo, \n que pronto se desvanece entre las manos.\n \n El Señor es la perla preciosa; \n ante él se eclipsan todas las grandezas.\n Aquel que ha reconocido su valor \n y lo ha encontrado,\n ése, para poseerlo, \n entrega todo con alegría.\n \n Quien ofrece entera la vida \n por causa del Señor,\n experimenta la bendición y el gozo \n de la vida verdadera;\n quien se reserve algo para sí,\n será, siempre y en todo, desdichado.\n \n El Dios que quiere dar\n el todo por el todo,\n con premura desea de mí una vida de Inscriptio; \n no debo temer a los poderes de este mundo;\n mi ser y mi espíritu\n están para agradar al Señor. \n \n Libremente le doy el Poder en Blanco,\n que vale en cualquier circunstancia: \n ésta es la fuente de mi felicidad.\n Lo que él quiere, permite o dispone \n es bueno para mí;\n así me lo dice la luz de la fe.\n \n Eso es lo que he experimentado \n en innumerables ocasionesn a través de mi larga existencia; \n ocurrió así cada vez que, filialmente, \n dejé que él actuará,\n aun cuando sobre mí se cernía la tormenta.\n \n Quien, como Cristo, el Esposo, 419 \n funda toda su existencia en el Padre \n y con su vida proclama la Inscriptio,\n irradia siempre una gran tranquilidad, \n aun cuando la tempestad\n ruja en torno a la casa.\n \n Aquél es comparable \n a un monte elevado,\n al pie del cual soplan vientos borrascosos, \n pero cuya cumbre brilla\n en medio de una eterna calma,\n de la que brota siempre una dichosa paz. \n \n Quien por si fe ve a Dios \n tras todas las cosas,\n con su oído percibe claramente \n la voz del Padre;\n siempre su corazón de niño está pronto \n a entregarse a él, lleno de felicidad.\n \n Aun cuando el Padre \n permite sufrimientos,\n el hijo los sabe asumir dentro del amor, \n besa la mano que sostiene su destino\n y en oración\n permanece vuelto hacia él.\n \n Nunca hace como el perro, \n que muerde con rabia\n la piedra que bruscamente lo saca del reposo; \n descubre tras cada piedra\n la amistosa mano del Padre, \n que lo invita a ir hacia el hogar.\n \n Así concluyó también  \n Job en su sufrimiento: \n “El Señor me lo dio\n y él me lo quitó”.\n No dijo: “Me lo dio el Señor,\n Y su don me lo arrebato el Demonio”. "
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

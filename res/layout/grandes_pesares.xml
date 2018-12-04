@@ -1,0 +1,59 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/panel_a_lo_largo_del_dia"
+    tools:context="sch_project.apk_01.apendice.exorcismos">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/vannegrita"
+        android:shadowColor="@android:color/darker_gray"
+        android:shadowDx="3"
+        android:shadowDy="2"
+        android:shadowRadius="1.8"
+        android:text="En grandes pesares"
+        android:textAlignment="center"
+        android:textColor="@color/titulo"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="64dp"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+
+            android:fontFamily="@font/vannormal"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:text="En grandes pesares \n y amargos dolores,\n no obstante mis faltas y culpas, \n benigna escuchaste\n mi oración,\n mi súplica filial.\n \n En dolor y congoja, \n cuando arreciaba la guerra y el fuego emergía, \ncon tu poder bondadoso \n que mantiene vigilancia, \n Madre, me cobijaste.\n \n En años de tormenta \n cuajados de peligros, \n a todos los  míos, \n que a ti se estrechan, \n los cuidaste solícita, \n inconmovible y fiel. \n \n Gracias, Madre; \n en cada instante,\n ante todos los pueblos, \n por mi servicio\n y simplemente, \n alabaré tu nombre.\n \n Aunque se desplome el mundo, \n lleno de confianza \n mi único norte \n será cumplir\n con fidelidad\n el querer del Padre.\n \n A través de tinieblas \n y tiempos de caos, \n de tu mano, Madre, \n él me guiará\n hacia el hogar,\n la patria del cielo.\n \n Tras todo llanto \n me reunirá\n con los que amo \n y fueron fieles:\n juntos contemplaremos al Cordero \n en la presencia de Dios.\n Amén."
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/texto"
+            android:textSize="@dimen/texto"
+            android:textStyle="bold" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

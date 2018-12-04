@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_menu_a_lo_largo_del_dia"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/consagracion_matutina"
+            android:title="Consagración matutina" />
+        <item
+            android:id="@+id/misainstrumento"
+            android:title="Misa del instrumento" />
+        <item
+            android:id="@+id/oficioSchonstatt"
+            android:title="Oficio de Schoenstatt" />
+        <item
+            android:id="@+id/angelus"
+            android:title="El Ángelus" />
+        <item
+            android:id="@+id/viacrucis"
+            android:title="Via Crucis del instrumento" />
+        <item
+            android:id="@+id/rosario"
+            android:title="Rosario del instrumento" />
+        <item
+            android:id="@+id/consagracion_nocturna"
+            android:title="Consagración nocturna" />
+    </group>
+
+    <item android:title="Opciones"
+        android:id="@+id/opciones"
+        >
+        <menu>
+            <item
+
+                android:id="@+id/favoritos"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Favoritos"
+                android:visible="false" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Atrás" />
+        </menu>
+    </item>
+
+</menu>
